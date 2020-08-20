@@ -116,3 +116,20 @@ div.conteudo {
   background-color: #555;
 }
 /* fonte https://www.w3schools.com/howto/howto_css_team.asp */
+
+.origem{
+  top: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: left;
+  position: absolute;
+  left: 30%;
+  right: 20%;
+}
+.habilidades{
+  top: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: left;
+  position: absolute;
+  left: 30%;
+  right: 20%;
+}
