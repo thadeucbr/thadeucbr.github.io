@@ -1,0 +1,30 @@
+/* inicio do bloco do indice */
+/* Add a black background color to the top navigation */
+.indice {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .indice a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .indice a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .indice a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  /* fonte: https://www.w3schools.com/howto/howto_js_topnav.asp */
+  /* fim do indice */
