@@ -43,12 +43,6 @@ body {
   color: #e6af2e;
   font-family: "Cairo", sans-serif;
 }
-a {
-  color: #e8f1f2;
-}
-a:hover {
-  color: #4cb944;
-}
 
 /* Apresentação do "Quem sou eu" */
 .card-apresentacao {
@@ -95,3 +89,9 @@ a:hover {
     margin-top: 5%;
     float: left;
 }
+a {
+    color: #e8f1f2;
+  }
+  a:hover {
+    color: #E3170A;
+  }
