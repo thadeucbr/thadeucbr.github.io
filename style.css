@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(53, 53, 53);
+  color: #e6af2e;
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+}
+a {
+  color: #e8f1f2;
+}
+a:hover {
+  color: #4cb944;
+}
