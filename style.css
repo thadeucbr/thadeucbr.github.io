@@ -1,7 +1,6 @@
 body {
   background-color: rgb(53, 53, 53);
   color: #e6af2e;
-  text-align: center;
   font-family: "Cairo", sans-serif;
 }
 a {
@@ -9,4 +8,18 @@ a {
 }
 a:hover {
   color: #4cb944;
+}
+.card-apresentacao {
+    padding: 1% 0% 1% 10%;
+    float: left;
+}
+.card-apresentacao img{
+    width: 25%;
+    float: left;
+    padding: 10px;
+    border-radius: 50%;
+}
+.destaque-apresentacao{
+    font-size: 1.5em;
+    font-weight: 700;
 }
