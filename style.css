@@ -26,6 +26,7 @@ a:hover {
 .card-apresentacao p{
     position: relative;
     margin-left: 30%;
+    text-align: justify;
 }
 .card-apresentacao h1{
     position: relative;
