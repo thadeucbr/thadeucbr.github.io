@@ -80,7 +80,9 @@ body {
     margin-left: 11%;
     margin-top: 5%;
 }
-
+.habilidades ol li{
+  margin-left: 2%;
+}
 /* Links */
 .links{
     width:50%;
