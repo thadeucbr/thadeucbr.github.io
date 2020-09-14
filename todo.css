@@ -17,7 +17,7 @@ body {
 .main-content {
   border: 2px solid black;
   border-radius: 20px;
-  margin-left: 380px;
+  margin-left: 26%;
   margin-top: 15px;
   padding-top: 10px;
   text-align: center;
@@ -52,4 +52,10 @@ body {
 
 .icon {
   text-decoration: none;
+}
+
+.criar-tarefa input{
+  background-color: rgb(53,53,53);
+  color:  #e6af2e;
+  border-color: black;
 }

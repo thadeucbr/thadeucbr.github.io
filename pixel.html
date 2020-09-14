@@ -3,18 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Paleta de Cores</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Pixel Art</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pixel.css" />
   </head>
   <body>
-    <h1 id="title">Paleta de Cores</h1>
+    <h1 id="title">Pixel Art</h1>
     <div id="color-palette">
       <div class="color black box selected"></div>
       <div class="color button1 box"></div>
       <div class="color button2 box"></div>
       <div class="color button3 box"></div>
     </div>
-    <input type="number" min="1" id="board-size" />
+    <input type="number" min="1" id="board-size" placeholder="Digite um numero"/>
     <button id="generate-board">VQV</button>
     <button id="clear-board" class="space">Limpar</button>
     <div id="pixel-board">
@@ -55,6 +56,6 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="pixel.js"></script>
   </body>
 </html>
