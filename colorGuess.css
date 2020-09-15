@@ -1,6 +1,22 @@
+body {
+  background-color: rgb(53, 53, 53);
+  color: #e6af2e;
+  font-family: "Cairo", sans-serif;
+}
+
 .ball {
   border-radius: 50px;
   display: inline-block;
   height: 50px;
   width: 50px;
+}
+
+.center {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.score{
+  margin-top: 20px;
+  display: block;
 }

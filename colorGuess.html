@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jogo da adivinhação</title>
-    <link rel="stylesheet" href="colorGuess.css" />
-  </head>
-  <body>
-    <h1 id="title">Adivinhe a cor!</h1>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Jogo da adivinhação</title>
+		<link rel="stylesheet" href="colorGuess.css" />
+	</head>
+	<body>
+		<div class="center">
+			<h1 id="title">Adivinhe a cor!</h1>
 
-    <p id="rgb-color"></p>
+			<p id="rgb-color"></p>
 
-    <div class="ball 1"></div>
-    <div class="ball 2"></div>
-    <div class="ball 3"></div>
-    <div class="ball 4"></div>
-    <div class="ball 5"></div>
-    <div class="ball 6"></div>
-    <p id="answer"></p>
-    <p id="score"></p>
-    <button id="reset-game">Próxima rodada</button>
-    <script src="colorGuess.js"></script>
-  </body>
+			<div class="ball 1"></div>
+			<div class="ball 2"></div>
+			<div class="ball 3"></div>
+			<div class="ball 4"></div>
+			<div class="ball 5"></div>
+			<div class="ball 6"></div>
+			<p id="answer"></p>
+
+			<div class="score">
+				<p>Pontuação</p>
+				<p id="score"></p>
+			</div>
+
+			<button id="reset-game">Próxima rodada</button>
+			<script src="colorGuess.js"></script>
+		</div>
+	</body>
 </html>
