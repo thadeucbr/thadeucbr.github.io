@@ -40,8 +40,9 @@ button {
 }
 
 .input-size {
-  width: 110px;
+  width: 105px;
   border-radius: 50px;
+  text-align: center;
 }
 
 .paleta-de-cor div{
@@ -56,4 +57,10 @@ button {
   padding: 3px;
   border-radius: 50px;
   border-top: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
