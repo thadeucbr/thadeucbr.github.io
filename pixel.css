@@ -1,8 +1,8 @@
 .box {
   border: 1px solid black;
   display: inline-block;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 /* Fundo do seletor obrigatório */
@@ -29,4 +29,31 @@
 /* Espaçador para tirar o quadro de cima do botão VQV */
 .space {
   margin-bottom: 10px;
+}
+
+.container-center {
+  text-align: center;
+}
+
+button {
+  border-radius: 20px;
+}
+
+.input-size {
+  width: 110px;
+  border-radius: 50px;
+}
+
+.paleta-de-cor div{
+  border-radius: 50px;
+}
+
+.paleta-de-cor {
+  border: 8px red double;
+  width: 230px;
+  display: inline-block;
+  margin: 3px;
+  padding: 3px;
+  border-radius: 50px;
+  border-top: none;
 }
