@@ -46,8 +46,11 @@ document.querySelectorAll('.ball').forEach((item) => {
     if (item.classList[2] === 'premiado') {
       score += 3;
       document.querySelector('#score').innerText = score;
-      return (document.querySelector('#answer').innerText = 'Acertou!');
+      item.classList.remove('premiado');
+      return (document.querySelector('#answer').innerText = 'Acertou! Clique em próxima rodada.');
     }
+    score -= 1;
+    document.querySelector('#score').innerText = score;
     return (document.querySelector('#answer').innerText = 'Errou! Tente novamente!');
   });
 });
