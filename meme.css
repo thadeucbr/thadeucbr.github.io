@@ -19,6 +19,7 @@
   text-transform: uppercase;
   top: 200px;
   width: 346px;
+  word-wrap: break-word;
 }
 
 img {
