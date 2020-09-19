@@ -72,7 +72,7 @@ clearBoard.addEventListener('click', () => {
   }
 });
 // Capturando o valor do tamanho do nosso quadro
-let boardSizeNumber;
+let boardSizeNumber = 5;
 const boardSize = document.querySelector('#board-size');
 boardSize.addEventListener('keyup', () => {
   boardSizeNumber = document.querySelector('#board-size').value;
