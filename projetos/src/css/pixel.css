@@ -1,0 +1,66 @@
+.box {
+  border: 1px solid black;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+/* Fundo do seletor obrigatório */
+.black {
+  background-color: black;
+}
+
+/* Quadrados do nosso quadro */
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin-left: -5px;
+  width: 40px;
+}
+
+/* Propriedades que quebram as linhas do nosso quadro */
+.col {
+  display: block;
+  margin-top: -5px;
+}
+
+/* Espaçador para tirar o quadro de cima do botão VQV */
+.space {
+  margin-bottom: 10px;
+}
+
+.container-center {
+  text-align: center;
+}
+
+button {
+  border-radius: 20px;
+}
+
+.input-size {
+  width: 105px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.paleta-de-cor div{
+  border-radius: 50px;
+}
+
+.paleta-de-cor {
+  border: 8px red double;
+  width: 230px;
+  display: inline-block;
+  margin: 3px;
+  padding: 3px;
+  border-radius: 50px;
+  border-top: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
