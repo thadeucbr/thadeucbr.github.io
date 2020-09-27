@@ -1,41 +1,48 @@
 body {
-	background-color: rgb(53, 53, 53);
-	color: #e6af2e;
-	font-family: 'Cairo', sans-serif;
+  background-color: rgb(53, 53, 53);
+  color: #e6af2e;
+  font-family: "Cairo", sans-serif;
 }
 
-/* Apresentação do "Quem sou eu" */
-
-.card-apresentacao img {
-	width: 20%;
-	float: left;
-	padding: 10px;
-	border-radius: 50%;
-	margin-top: 5%;
-}
 .destaque-apresentacao {
-	font-size: 1.5em;
-	font-weight: 700;
+  font-size: 1.5em;
+  font-weight: 700;
 }
-.card-apresentacao p {
-	margin: center;
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about {
+  display: flex;
+}
+
+.skills {
+	display: flex;
+}
+
+@media screen and (max-width: 414px) and (orientation: portrait){
+  .about img {
+	width: 100%;
+	padding: 20px 0px;
+  }
+
+  .about {
+    align-items: center;
+    flex-direction: column;
+	justify-items: flex-start;
+	font-size: 16px;
+	text-indent: 15px;
+	margin: 10px 10px;
 	text-align: justify;
-	margin-left: 23%;
-}
-.card-apresentacao h1 {
-	position: relative;
-	margin-left: 22%;
-}
+  }
 
-/* Lista de habilidades */
-.habilidades {
-	float: left;
-	margin-top: 5%;
-}
-.habilidades ol li {
-	margin-left: 4%;
-}
+  .destaque-apresentacao {
+	  font-size: 1.2em;
+  }
 
-.container {
-	margin-top: 50px;
+  .skills {
+	  display: none;
+  }
 }
