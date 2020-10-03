@@ -5,6 +5,29 @@ let color = 'black';
 const randomHsl = () => `hsla(${Math.random() * 360}, 100%, 50%, 1)`;
 // <------------------------------------------------------->
 
+const maxPixelsScreenSize = () => {
+  if(window.innerWidth <= 320){
+    return 9;
+  }
+  if(window.innerWidth <= 375){
+    return 10;
+  }
+  if(window.innerWidth <= 414){
+    return 11;
+  }
+  if(window.innerWidth <= 768){
+    return 21;
+  }
+  if(window.innerWidth <= 1024){
+    return 29;
+  }
+  return 50;
+}
+
+const maxPixelsLandscape = () => {
+
+}
+
 // Adiciona cada cor ao valor do botão
 const buttonColor1 = randomHsl();
 const buttonColor2 = randomHsl();
@@ -90,16 +113,19 @@ function resetBoard() {
 // Função que cria um novo quadro com os parametros passados
 const generateBoard = document.querySelector('#generate-board');
 generateBoard.addEventListener('click', function createBoard() {
+  const targetDiv = document.getElementById('pixel-board');
   if (boardSize.value <= 0) {
     return alert('Board inválido!');
   }
   if (boardSize.value < 5) {
     boardSizeNumber = 5 * 5;
   }
-  if (boardSize.value > 50) {
-    boardSizeNumber = 50 * 50;
+  if (boardSize.value > maxPixelsScreenSize()) {
+    boardSizeNumber = maxPixelsScreenSize() * maxPixelsScreenSize();
   }
-  const targetDiv = document.getElementById('pixel-board');
+  const firstDiv = document.createElement('div');
+  firstDiv.className = 'trambique';
+  targetDiv.appendChild(firstDiv);
   let count = 0;
   resetBoard();
   for (let index = 0; index < boardSizeNumber; index += 1) {

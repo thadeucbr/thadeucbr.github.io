@@ -17,6 +17,7 @@
   display: inline-block;
   height: 40px;
   margin-left: -5px;
+  margin-bottom: -5px;
   width: 40px;
 }
 
@@ -31,18 +32,10 @@
   margin-bottom: 10px;
 }
 
-.container-center {
-  text-align: center;
-}
-
-button {
-  border-radius: 20px;
-}
-
 .input-size {
-  width: 105px;
-  border-radius: 50px;
+  width: 130px;
   text-align: center;
+  height: 30px;
 }
 
 .paleta-de-cor div{
@@ -51,8 +44,10 @@ button {
 
 .paleta-de-cor {
   border: 8px red double;
-  width: 230px;
-  display: inline-block;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 3px;
   padding: 3px;
   border-radius: 50px;
@@ -63,4 +58,26 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.boardSize {
+  margin: 10px;
+  display: flex;
+}
+
+.boardSize button {
+  height: 30px;
+}
+
+.pixel-board {
+  overflow: hidden;
 }
