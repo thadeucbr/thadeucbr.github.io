@@ -35,7 +35,7 @@ class Timeline extends Component {
             </div>
             <div className="body">
               <p>
-                Com o tempo passando, sem nenhum sinal de sucesso a vista como musico, e a
+                Com o tempo passando, sem nenhum sinal de sucesso à vista como musico, e a
                 pressão familiar aumentando para que eu tivesse um curso superior, acabei
                 cedendo e iniciei o curso de Direito na FMU.
               </p>
@@ -57,9 +57,9 @@ class Timeline extends Component {
             <div className="body">
               <p>
                 Eu estava extremamente infeliz na faculdade de direito então resolvi
-                trancar a matricula, imediatamente fui gentilmente informado que eu não
-                ficaria sem fazer nada e fui informado que eu deveria estudar para entrar
-                na faculdade de medicina.
+                trancar a matricula e com essa decisão, fui "gentilmente" informado que eu
+                não ficaria desocupado e que deveria estudar para entrar na faculdade de
+                medicina.
               </p>
             </div>
           </div>
@@ -77,9 +77,8 @@ class Timeline extends Component {
                 a faculdade de direito no primeiro semestre de 2016.
               </p>
               <p>
-                Mas como eu realmente era muito infeliz, no segundo semestre eu pedi
-                transferência para o curso de Analise e Desenvolvimento de Sistemas na
-                própria FMU.
+                Neste período era muito infeliz e no segundo semestre pedi transferência
+                para o curso de Análise e Desenvolvimento de Sistemas na própria FMU.
               </p>
             </div>
           </div>
@@ -88,7 +87,7 @@ class Timeline extends Component {
               <div className="number-box">
                 <span>2016</span>
               </div>
-              <h2 style={{lineHeight: "25px"}}>PROBLEMAS FINANCEIROS</h2>
+              <h2 style={{ lineHeight: '25px' }}>PROBLEMAS FINANCEIROS</h2>
             </div>
             <div className="body">
               <p>
@@ -97,7 +96,7 @@ class Timeline extends Component {
                 muito feliz nessa época.
               </p>
               <p>
-                Porem no final do ano eu estava com muitas parcelas em aberto e não
+                Porém no final do ano eu estava com muitas parcelas em aberto e não
                 consegui seguir para o segundo ano de Analise e Desenvolvimento De
                 Sistemas.
               </p>
@@ -113,8 +112,8 @@ class Timeline extends Component {
             <div className="body">
               <p>
                 Em 2018 a situação financeira melhorou um pouco, mas no final de agosto
-                acabei tendo o mesmo problema financeiro, e nesta época eu também estava
-                procurando emprego como programador e só recebia não.
+                acabei tendo o mesmo problema financeiro, e nesta época estava procurando
+                emprego como programador e só recebia não.
               </p>
               <p>
                 No final de agosto acabei trancando novamente a faculdade por estar
@@ -134,13 +133,13 @@ class Timeline extends Component {
             </div>
             <div className="body">
               <p>
-                A situação financeira apenas piorava (o apartamento que eu morava já
-                estava indo a leilão), eu não recebia nenhuma resposta das vagas em que me
-                aplicava.
+                A situação financeira apenas piorava (o apartamento onde morava já estava
+                indo a leilão).
               </p>
+              <p>Não recebia nenhuma resposta das vagas em que me aplicava.</p>
               <p>
                 Desesperado também por não conseguir encontrar um norte nos milhares de
-                vídeos no youtube que ensinam a programar, eu estava perdido.
+                vídeos no youtube que ensinam a programar, estava perdido.
               </p>
             </div>
           </div>
@@ -151,7 +150,7 @@ class Timeline extends Component {
               </div>
               <h2>
                 <span className="small">Junho</span>
-                <div style={{lineHeight: "25px"}}>LUZ NO FIM DO TUNEL</div>
+                <div style={{ lineHeight: '25px' }}>LUZ NO FIM DO TUNEL</div>
               </h2>
             </div>
             <div className="body">
@@ -194,7 +193,7 @@ class Timeline extends Component {
                 MUDANÇAS
               </h2>
             </div>
-            <div className="body" style={{height: '300px'}}>
+            <div className="body" style={{ height: '300px' }}>
               <p>
                 Após alguns meses comecei a acertar as coisas, consegui vender o
                 apartamento em que morava e com isso zerei todas as minhas dividas, mudei
