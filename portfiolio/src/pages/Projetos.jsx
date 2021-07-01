@@ -22,13 +22,10 @@ class App extends Component {
               <div class="content-projetos">
                 <p>
                   {' '}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab
-                  repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus
-                  illum perferendis maiores quia molestias vitae fugiat aspernatur alias
-                  corporis?
+                  Repositório com todos os meus projetos realizados na Trybe.
                 </p>
-                <a href="#">
-                  Read More
+                <a href="https://github.com/thadeucbr/Projetos-Trybe">
+                <i class="fab fa-github fa-2x"></i>
                 </a>
               </div>
             </div>
@@ -37,20 +34,17 @@ class App extends Component {
           <div class="card-projetos">
             <div class="face face1">
               <div class="content-projetos">
-              <i class="fab fa-js fa-9x" style={{color: "#F0DB4F"}}></i> <h3>JavaScript</h3>
+              <i class="fab fa-js fa-9x" style={{color: "#F0DB4F"}}></i>
               </div>
             </div>
             <div class="face face2">
               <div class="content-projetos">
                 <p>
                   {' '}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab
-                  repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus
-                  illum perferendis maiores quia molestias vitae fugiat aspernatur alias
-                  corporis?
+                  Em breve adicionarei um repositório exclusivo dos meus projeto realizados com Node.JS.
                 </p>
                 <a href="#">
-                  Read More
+                <i class="fab fa-github fa-2x"></i>
                 </a>
               </div>
             </div>
@@ -59,21 +53,17 @@ class App extends Component {
           <div class="card-projetos">
             <div class="face face1">
               <div class="content-projetos">
-                <i class="fab fa-apple"></i>
-                <h3>Apple</h3>
+                <i class="fab fa-apple fa-9x"></i>
               </div>
             </div>
             <div class="face face2">
               <div class="content-projetos">
                 <p>
                   {' '}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab
-                  repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus
-                  illum perferendis maiores quia molestias vitae fugiat aspernatur alias
-                  corporis?
+                  Esse é meu repositório de Swift, no momento não tem muita coisa pois comecei a pouco tempo o curso.
                 </p>
-                <a href="#">
-                  Read More
+                <a href="https://github.com/thadeucbr/Udacity">
+                <i class="fab fa-github fa-2x"></i>
                 </a>
               </div>
             </div>

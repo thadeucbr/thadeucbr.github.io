@@ -1,20 +1,35 @@
 #sobre {
   height: 100vh;
-  margin: 0px;
-  padding: 0px;
   width: 100vw;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
-#card {
+.sobre-card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  min-width: 400px;
+}
+
+.sobre-texto {
+  background-color: #0609f0;
+  color: #E8BF0C;
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.photo {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 70%;
-  width: 80%;
-  background-color: aliceblue;
-  border-radius: 18px;
-  padding: 30px;
+  width: 300px;
+  min-width: 300px;
 }
